@@ -1,0 +1,134 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Digiket</title>
+	<meta name="description" content="Digiket">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:title" content="Digiket">
+	<meta property="og:type" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+
+	<link rel="apple-touch-icon" href="icon.png">
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'>
+	<link rel="stylesheet" href="assets/plugins/lightGallery-master/dist/css/lightgallery.min.css">
+	<link rel="stylesheet" href="assets/css/main.css?v=1.8.0">
+
+	<meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+	<header class="main-header clearfix">
+		<div class="logo float-left" style="min-width: 250px;">
+				<img src="assets/img/icon-feather-menu.svg" id="menu-toggle" class="menu-icon" />
+				<!--<img src="assets/img/logo.jpeg" id="menu-toggle" class="img-fluid" width="15%" height="" />-->
+			
+		</div>
+		<div class="header-menu social-icon">
+			<a href="https://www.facebook.com/digiketna/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href="https://www.linkedin.com/showcase/digiket-africa/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			<a href="https://www.behance.net/digiket"><i class="fa fa-behance" aria-hidden="true"></i></a>
+			
+		</div>
+		<!--<ul class="header-menu">
+			<li><a href="index.html" class="active">ACCUEIL</a></li>
+			<li><a href="propos.html">A PROPOS</a></li>
+			<li><a href="services.html">NOS SERVICES</a></li>
+			<li><a href="portfolio.html">PORTFOLIO</a></li>
+			<li><a href="equipe.html">EQUIPE</a></li>
+			<li><a href="contact.html">NOUS JOINDRE</a></li>
+		</ul>-->
+		<div id="sidebar-wrapper">
+			<div class="main-menu">
+				<ul class="list-group">
+					<li><a href="index.html" class="active">Accueil</a></li>
+					<li><a href="propos.html">A propos</a></li>
+					<li><a href="services.html">Nos services</a></li>
+					<li><a href="portfolio.html">Nos realisations</a></li>
+					<li><a href="equipe.html">Equipe</a></li>
+					<li><a href="contact.html">Nous joindre</a></li>
+					<li><a href="devis.html">Devis</a></li>
+					<li><a href="devis-1.html">Carrières</a></li>
+					<!--<li><a href="notre-equipe.html">Espace client</a></li>-->	
+				</ul>
+				<img class="bg-img" src="assets/img/banner-bg2.png" />
+			</div>
+		</div>
+	</header>
+	<section class="content-wrapper"  data-aos="fade-right">
+		<div class="home-banner portfolio">
+			<div class="left-text">
+				<div class="d-flex flex-column">
+					<div class="big-text"><p>rejoindre<br>
+						l'équipe</p></div>
+					<div class="text-para">
+						<p>Nous sommes une équipe active, dynamique et multiculturelle.</p>
+					</div>
+					<div class="video-wrapper">
+						<div class="video-aspect-ratio">
+							<!--<iframe class="youtube-video" src="https://www.youtube.com/embed/rDYdeq3JW_E">
+							</iframe>-->
+							<iframe class="youtube-video" src="https://www.youtube.com/embed/andpkOiAN_4"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-side devis">
+				<div class="devis-1" données-espion = "scroll"   data-target = "# navbar- exemple"   données offset = "7" 
+      style = "height: 400px; overflow : auto; position: relative;">
+					<div class="d-block">
+						<a href="devis-2.html"><h3>Developpeur Web</h3></a>
+						<p>Développement web</p>
+					</div>
+
+					<div class="d-block">
+						<a href="devisMobile.html"><h3>Développeur mobile</h3></a>
+						<p>Développement web</p>
+					</div>
+
+					<div class="d-block">
+						<a href="devisEnd.html"><h3>Développeur front-end</h3></a>
+						<p>Développement web</p>
+					</div>
+
+			
+					<div class="d-block">
+						<a href="devisDesign.html"><h3>UX/UI Designer</h3></a>
+						<p>Design graphique</p>
+					</div>
+
+				    <div class="d-block">
+						<a href="devisMarketing.html"><h3>Assistant(e) Marketing/ Social Media</h3></a>
+						<p>Conseils et stratégies digitales</p>
+					</div>
+			
+					<div class="d-block">
+						<a href="devisComminu.html"><h3>Coordinateur marketing/ Social media</h3></a>
+						<p>Conseils et stratégies digitales</p>
+					</div>	
+				</div>	
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<script src="assets/js/jquery.min.js?v=1.8.0"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
+	<script src="assets/plugins/lightGallery-master/dist/js/lightgallery-all.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/main.js?v=1.8.0"></script>
+</body>
+</html>
